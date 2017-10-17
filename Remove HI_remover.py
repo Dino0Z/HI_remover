@@ -4,9 +4,9 @@ a = 0
 while True:
     a=0
     print("\
-[\"info\" for information]\n\
-[\"default\" use current dir]\n\
-[\"quit\" to terminate this program]")
+    [\"info\" for information]\n\
+    [\"default\" use current dir]\n\
+    [\"quit\" to terminate this program]")
     path = raw_input("[enter full path to dir]:")
 
     if path == "quit":
@@ -15,10 +15,10 @@ while True:
     
     elif path == "info":
         print ("\nThis script cleans Hearing Impaired (HI) tags \
-from all .srt files in a directory. Backups are made and stored \
-in folder \"Original subs\". Type the full path to directory that \
-needs HI cleanup. Current directory is used if nothing is \
-specified or \"default\" is used.")
+        from all .srt files in a directory. Backups are made and stored \
+        in folder \"Original subs\". Type the full path to directory that \
+        needs HI cleanup. Current directory is used if nothing is \
+        specified or \"default\" is used.")
         raw_input("Press Enter to continue...")
         print("\n")
         continue
